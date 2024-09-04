@@ -11,7 +11,7 @@ int main(){
     int per;
     scanf("%d", &per);
 
-    if(per >= 100 && per <= 90){
+    if(per <= 100 && per >= 90){
         printf("Outstanding \n");
     }else if (per >= 80 && per < 90)
     {
